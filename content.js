@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === Node.TEXT_NODE) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/licked/gi, 'licked');
+            var replacedText = text.replace(/licked/gi, 'licked 👅');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
