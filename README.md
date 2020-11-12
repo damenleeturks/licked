@@ -20,7 +20,7 @@ To manually install from this GitHub repo, follow these steps:
 3. Go to this URL in your Chrome browser: [chrome://extensions/](chrome://extensions/)
 4. Click to check the box for "Developer mode."
 5. One of the new buttons that should appear is "Load unpacked" (or, in older versions, "Load unpacked extension"). Click it. 
-6. Choose the folder that the unzipped/extracted files are in (probably called "`licked`").
+6. Choose the folder that the unzipped/extracted files are in (probably called "`licked-master`").
 7. The extension should now appear and the "Enabled" box should be checked. Start browsing your notifications and feeling all those doggy kisses!
 
 
