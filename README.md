@@ -23,10 +23,18 @@ To manually install from this GitHub repo, follow these steps:
 6. Choose the folder that the unzipped/extracted files are in (probably called "`licked-master`").
 7. The extension should now appear and the "Enabled" box should be checked. Start browsing your notifications and feeling all those doggy kisses!
 
-###
-Or if you'd rather just have a bookmarklet, drag this link to your bookmarks bar: 
+### Bookmarklet
+If you'd rather just have a bookmarklet, add a new bookmark and paste this in the location field: 
 
-<strong><a href="javascript:var elements = document.getElementsByTagName('*'); for (var i = 0; i < elements.length; i++) {var element = elements[i]; for (var j = 0; j < element.childNodes.length; j++) {var node = element.childNodes[j]; if (node.nodeType === Node.TEXT_NODE) {var text = node.nodeValue; var replacedText = text.replace(/liked/gi, 'licked 👅'); if (replacedText !== text) {element.replaceChild(document.createTextNode(replacedText), node); } } } }">Licked 👅</a></strong>
+```
+javascript:var elements = document.getElementsByTagName('*'); for (var i = 0; i < elements.length; i++) {var element = elements[i]; for (var j = 0; j < element.childNodes.length; j++) {var node = element.childNodes[j]; if (node.nodeType === Node.TEXT_NODE) {var text = node.nodeValue; var replacedText = text.replace(/liked/gi, 'licked 👅'); if (replacedText !== text) {element.replaceChild(document.createTextNode(replacedText), node); } } } }
+```
+or 
+```
+javascript:(function(){
+  document.body.innerHTML = document.body.innerHTML.replace(/liked/g, "licked 👅").replace(/Liked/g, "Licked 👅");
+})();
+```
 
 ## Special thanks:
 
