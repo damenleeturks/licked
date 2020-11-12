@@ -1,8 +1,8 @@
 # Licked :tongue:
 
 ## WHAT: 
-This is a Chrome browser extension that replaces the word "liked" to "licked" and was inspired by [this tweet](https://twitter.com/SweatingCommas/status/1326882812755128325) by Jason Rehmus:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Can I get a browser extension to change “liked” to “licked” in my notifications? <a href="https://t.co/AMElWe8S7l">pic.twitter.com/AMElWe8S7l</a></p>&mdash; Jason Rehmus 🔎📝 (@SweatingCommas) <a href="https://twitter.com/SweatingCommas/status/1326882812755128325?ref_src=twsrc%5Etfw">November 12, 2020</a></blockquote>
+This is a Chrome browser extension that replaces the word "licked" to "licked" and was inspired by [this tweet](https://twitter.com/SweatingCommas/status/1326882812755128325) by Jason Rehmus:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Can I get a browser extension to change “licked” to “licked” in my notifications? <a href="https://t.co/AMElWe8S7l">pic.twitter.com/AMElWe8S7l</a></p>&mdash; Jason Rehmus 🔎📝 (@SweatingCommas) <a href="https://twitter.com/SweatingCommas/status/1326882812755128325?ref_src=twsrc%5Etfw">November 12, 2020</a></blockquote>
 
 ## WHY:
 For fun.
@@ -23,6 +23,10 @@ To manually install from this GitHub repo, follow these steps:
 6. Choose the folder that the unzipped/extracted files are in (probably called "`licked-master`").
 7. The extension should now appear and the "Enabled" box should be checked. Start browsing your notifications and feeling all those doggy kisses!
 
+###
+Or if you'd rather just have a bookmarklet, drag this link to your bookmarks bar: 
+
+<strong><a href="javascript:var elements = document.getElementsByTagName('*'); for (var i = 0; i < elements.length; i++) {var element = elements[i]; for (var j = 0; j < element.childNodes.length; j++) {var node = element.childNodes[j]; if (node.nodeType === Node.TEXT_NODE) {var text = node.nodeValue; var replacedText = text.replace(/liked/gi, 'licked 👅'); if (replacedText !== text) {element.replaceChild(document.createTextNode(replacedText), node); } } } }">Licked 👅</a></strong>
 
 ## Special thanks:
 
