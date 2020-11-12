@@ -26,5 +26,5 @@ To manually install from this GitHub repo, follow these steps:
 
 ## Special thanks:
 
-@cynthiablee: Thanks to Tom Maxwell for the [tutorial and template code](https://9to5google.com/2015/06/14/how-to-make-a-chrome-extensions/) for this project! 
+@cynthiablee: Thanks to Tom Maxwell for the [tutorial and template code](https://9to5google.com/2015/06/14/how-to-make-a-chrome-extensions/) for this project!  
 @damenleeturks: Thanks to cynthiablee for her original "victory-for-satan-blocker" extension
